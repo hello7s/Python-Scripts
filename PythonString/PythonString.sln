@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonString", "PythonString\PythonString.pyproj", "{0FCAEF6E-4ED4-418E-95BD-087D6EAB2B5C}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonIntro", "PythonString\PythonIntro.pyproj", "{0FCAEF6E-4ED4-418E-95BD-087D6EAB2B5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

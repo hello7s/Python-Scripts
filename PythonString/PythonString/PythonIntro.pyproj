@@ -4,13 +4,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0fcaef6e-4ed4-418e-95bd-087d6eab2b5c</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
+    <ProjectHome>
+    </ProjectHome>
     <StartupFile>PythonString.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonString</Name>
+    <Name>PythonIntro</Name>
     <RootNamespace>PythonString</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -22,10 +23,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Comparisons.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maths.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Operators.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonStrings.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PythonString.py" />
+    <Compile Include="SetsAndMembers.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
