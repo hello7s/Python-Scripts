@@ -29,6 +29,7 @@
     <Compile Include="Maths.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="NetworkScanner.py" />
     <Compile Include="Operators.py">
       <SubType>Code</SubType>
     </Compile>
